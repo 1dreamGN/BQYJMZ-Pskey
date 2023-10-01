@@ -12,9 +12,9 @@ php这一端就是收集密码的。（php主要是操作数据库的，nodejs�
 不多说了，明白人一看就知道咋用，不会用的再怎么讲也不会用。
 
 
-不经过php收集密码直接获取p值访问百度云就行了。例:http://qlike4p.duapp.com/?act=getp&uin=【QQ号】&pwd=【md5加密的QQ密码】&vcode=【登陆QQ时的验证码】&ver=【p值版本】
+不经过php收集密码直接获取p值访问百度云就行了。例:http://url/?act=getp&uin=【QQ号】&pwd=【md5加密的QQ密码】&vcode=【登陆QQ时的验证码】&ver=【p值版本】
 
-经过php收集密码的地址格式。例：http://api.qqmzp.com/p.php?uin=【QQ号】&pwd=【QQ密码】&vcode=【大写的登陆QQ时的验证码】&ismd5=【密码是否md5加密了】&ver=【p值版本】
+经过php收集密码的地址格式。例：http://url/p.php?uin=【QQ号】&pwd=【QQ密码】&vcode=【大写的登陆QQ时的验证码】&ismd5=【密码是否md5加密了】&ver=【p值版本】
 
 
 p值版本参数：有两个值，分别是“1.0”，“2.0”。1.0是平常用的，2.0是新版登陆协议上面用的。
